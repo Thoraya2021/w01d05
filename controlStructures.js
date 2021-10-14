@@ -64,6 +64,14 @@ while (i <= 20) {
     i++;
   }
 
+  let stars= "*" ; 
+  while (stars <= 20) {
+      console.log( stars); 
+      i++;
+    }
+  
+
+
 
   let nums=0; 
 while (nums <= 20) {
