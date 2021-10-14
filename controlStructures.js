@@ -40,4 +40,48 @@ if (num1>num2 && num1>num3)
 }
 
 
-/*  */
+/*   positive and negative */
+let amount=30;
+
+
+if (amount > 0) {
+    console.log("The number is positive");
+}
+
+else if (amount < 0) {
+ 
+
+     console.log("The number is negative");
+}
+
+    amount = parseInt(prompt("please Enter a number: "));
+/*loggin */
+
+
+let i=0; 
+while (i <= 20) {
+    console.log("The number is " + i); 
+    i++;
+  }
+
+
+  let nums=0; 
+while (nums <= 20) {
+    console.log("The number is " + nums); 
+    i--;
+  }
+
+
+
+
+for (let x=0; x<=20; x++) {
+    if (x === 0) {
+            console.log(x +  " is even");
+    }
+    else if (x % 2 === 0) {
+            console.log(x + " is even");   
+    }
+    else {
+            console.log(x + " is odd");
+    }
+}
