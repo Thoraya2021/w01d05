@@ -64,20 +64,7 @@ while (i <= 20) {
     i++;
   }
 
-  let stars= "*" ; 
-  while (stars <= 20) {
-      console.log( stars); 
-      i++;
-    }
   
-
-
-
-  let nums=0; 
-while (nums <= 20) {
-    console.log("The number is " + nums); 
-    i--;
-  }
 
 
 
@@ -89,7 +76,7 @@ for (let x=0; x<=20; x++) {
     else if (x % 2 === 0) {
             console.log(x + " is even");   
     }
-    else {
-            console.log(x + " is odd");
-    }
 }
+
+
+
