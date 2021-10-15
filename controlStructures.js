@@ -60,8 +60,15 @@ else if (amount < 0) {
 
 let i=0; 
 while (i <= 20) {
-    console.log("The number is " + i); 
+    console.log(i); 
     i++;
+  }
+
+  let g=0;
+  for (g =20 ; g >= 0 ; g--) 
+
+  {
+    console.log(g); 
   }
 
   
@@ -71,12 +78,10 @@ while (i <= 20) {
 
 for (let x=0; x<=20; x++) {
     if (x === 0) {
-            console.log(x +  " is even");
+            console.log(x +  " even");
     }
     else if (x % 2 === 0) {
-            console.log(x + " is even");   
+            console.log(x + "even");   
     }
 }
-
-
 
